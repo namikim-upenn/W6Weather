@@ -23,8 +23,8 @@ public class City {
 	 * If temp already exists for the given day, it will be replaced with the new temp.
 	 * @param month
 	 * @param day
-	 * @param temp
-	 * @return true if successfully added
+	 * @param temp max temp of the day 
+	 * @return true if successfully stored.
 	 */
 	public boolean addTempForDate(String month, int day, double temp) {
 		
